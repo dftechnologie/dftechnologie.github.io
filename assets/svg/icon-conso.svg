@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" d="M97.167,88.851
+	c4-27.033,33.5-25.907,33.5-25.907c-0.833-27.833-22.483-29.5-22.483-29.5l-36.684,10c0,0-8.21,3.607-6.021,25.804
+	s22.719,38.167,26.203,31.432C95.167,93.943,97.167,88.851,97.167,88.851z"/>
+<g>
+	
+		<ellipse transform="matrix(0.0352 0.9994 -0.9994 0.0352 150.5388 -9.9719)" fill="#756A67" cx="80.434" cy="72.981" rx="7.948" ry="4.065"/>
+	
+		<ellipse transform="matrix(0.0352 0.9994 -0.9994 0.0352 150.6902 -9.5835)" fill="#3C2F35" cx="80.309" cy="73.254" rx="6.519" ry="3.334"/>
+</g>
+<g>
+	<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" d="M27.039,124.327V72.126
+		c0,0,46.003-12.684,61.027,15.186c0,0,9.434,19.876-16.566,24.338"/>
+	<path fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M7.5,86.682v36.637
+		c0,9.481,14.327,17.167,32,17.167s32-7.686,32-17.167V87.942"/>
+	<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" d="M71.5,87.942c0,9.481-14.327,17.167-32,17.167
+		s-32-8.316-32-17.797v36.007c0,9.481,14.327,17.167,32,17.167s32-7.686,32-17.167V87.942z"/>
+	<ellipse fill="#DBDEEB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" cx="39.5" cy="87.942" rx="32" ry="17.167"/>
+	<g>
+		<ellipse fill="#756A67" cx="39.5" cy="86.682" rx="7.417" ry="3.625"/>
+		<ellipse fill="#3C2F35" cx="39.75" cy="86.802" rx="6.083" ry="2.974"/>
+	</g>
+	<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" d="M58.387,152.111v-38.213
+		c0,0,27.915-3.229,31.348-16.206l0.037,39.528C89.771,137.221,80.94,152.111,58.387,152.111z"/>
+</g>
+<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-miterlimit="10" d="M71.5,43.443c0,0,24-11.917,31.036,29.917"/>
+<path fill="#CDD1DB" stroke="#555555" stroke-width="0.5" stroke-linejoin="round" stroke-miterlimit="10" d="M108.292,65.005
+	l21.125-4.927l18.25-5.018c13.75-0.018,16.75,28.404,16.75,28.404c3,63.636,26.75,72.863,26.75,72.863l-33.25,14
+	c0,0-17.166-9.748-20.75-29.842c-13.834-77.543-24.987-74.224-27.808-75.362c-0.452-0.183-1.026-0.265-1.894,0.421
+	c-5.388,4.265-16.981,36.325-16.981,36.325l35.196-11.368c0,0-3.848-15.061-10.047-21.257
+	C111.486,65.102,108.292,65.005,108.292,65.005z"/>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<path fill="#4C4C4D" stroke="#4C4C4D" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M191.762,146.931c0,0.995-0.805,1.8-1.801,1.8H8.666c-0.993,0-1.8-0.805-1.8-1.8V23.932c0-0.995,0.807-1.8,1.8-1.8h181.295
+	c0.996,0,1.801,0.805,1.801,1.8V146.931z"/>
+<g>
+	<rect x="14.713" y="29.029" fill="#FFFFFF" width="169.201" height="96.299"/>
+	<path fill="#333333" d="M183.015,29.929v94.5H15.613v-94.5H183.015 M184.814,28.129H13.813v98.1h171.001V28.129L184.814,28.129z"/>
+</g>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="164.1699" y1="152.0439" x2="215.8709" y2="185.6189" gradientTransform="matrix(-1 0 0 1 290.373 0)">
+		<stop  offset="0.0675" style="stop-color:#020202"/>
+		<stop  offset="1" style="stop-color:#F1F2F2"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M71.021,178.746c-1.688-0.338-1.575-3.102-1.575-3.102c12.375-10.237,16.312-25.137,16.312-25.137
+		l26.888,0.45c0,0,4.16,15.524,16.535,25.763c0,0,0.112,1.688-1.575,2.025H71.021z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="191.0303" y1="141.5508" x2="191.0303" y2="177.9715" gradientTransform="matrix(-1 0 0 1 290.373 0)">
+		<stop  offset="0.1835" style="stop-color:#020202"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M71.021,177.508c-1.688-0.338-1.514-2.025-1.514-2.025c12.375-10.236,9.314-27.562,9.314-27.562
+		h40.985c0,0-3,17.326,9.375,27.562c0,0,0.112,1.688-1.575,2.025S72.708,177.846,71.021,177.508z"/>
+</g>
+<path fill="none" stroke="#555555" stroke-width="4.5" stroke-miterlimit="10" d="M162.059,112.366c0,3.349-2.715,6.063-6.063,6.063
+	H44.42c-3.35,0-6.064-2.715-6.064-6.063V39.195c0-3.349,2.715-6.063,6.064-6.063h111.575c3.349,0,6.063,2.715,6.063,6.063V112.366z"
+	/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="38.355" y1="50.575" x2="162.059" y2="50.575"/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="64.373" y1="32.189" x2="64.373" y2="50.575"/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="76.479" y1="32.189" x2="76.479" y2="50.575"/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="88.583" y1="32.189" x2="88.583" y2="50.575"/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="119.34" y1="32.189" x2="119.34" y2="50.575"/>
+<line fill="none" stroke="#555555" stroke-width="1.8" stroke-miterlimit="10" x1="150.094" y1="32.189" x2="150.094" y2="50.575"/>
+<g>
+	<path fill="#555555" d="M62.888,65.336v33.188H39.84V65.336H62.888 M64.373,63.852H38.355v36.157h26.017V63.852L64.373,63.852z"/>
+</g>
+<line fill="none" stroke="#555555" stroke-width="1.4843" stroke-linejoin="round" stroke-miterlimit="10" x1="38.355" y1="99.468" x2="162.059" y2="99.468"/>
+<rect x="74.174" y="58.204" fill="none" stroke="#555555" stroke-width="1.4843" stroke-linejoin="round" stroke-miterlimit="10" width="81.376" height="41.265"/>
+<line fill="none" stroke="#555555" stroke-width="1.4843" stroke-linejoin="round" stroke-miterlimit="10" x1="74.174" y1="99.468" x2="74.174" y2="117.029"/>
+<line fill="none" stroke="#555555" stroke-width="1.4843" stroke-linejoin="round" stroke-miterlimit="10" x1="109.504" y1="99.166" x2="109.504" y2="118.208"/>
+<polygon fill="#555555" points="171.615,94.826 138.314,75.847 153.615,112.15 160.141,104.726 168.915,113.275 172.785,108.955 
+	164.189,101.126 "/>
+<g>
+	<path fill="#555555" d="M106.904,94.07l-15.46-6.818v-2.227l15.46-7.722v3.736l-10.649,4.936l10.649,4.375V94.07z"/>
+	<path fill="#555555" d="M121.293,74.468l-8.487,22.764h-4.312l8.485-22.764H121.293z"/>
+	<path fill="#555555" d="M122.818,90.349l10.65-4.375l-10.65-4.936v-3.736l15.461,7.722v2.227l-15.461,6.818V90.349z"/>
+</g>
+<g>
+	<path fill="#555555" d="M154.48,42.754l-1.898-2.884h1.824l1.145,1.877l1.154-1.877h1.824l-1.919,2.884l2.009,3.011h-1.83
+		l-1.238-2.02l-1.244,2.02h-1.825L154.48,42.754z"/>
+</g>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="127.54" y1="-18.9746" x2="218.9835" y2="132.7387">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<path opacity="0.8" fill="url(#SVGID_3_)" d="M119.34,22.131h70.621c0.996,0,1.801,0.805,1.801,1.8v122.999
+	c0,0.995-0.805,1.8-1.801,1.8L119.34,22.131z"/>
+<text transform="matrix(1 0 0 1 91.8218 69.4775)" fill="#555555" font-family="'OpenSans-Bold'" font-size="10.8">Logiciels</text>
+</svg>
