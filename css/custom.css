@@ -59,6 +59,12 @@ h3.micro,
   margin-top: 16px !important;
 }
 
+.listing { margin-bottom: 40px; font-family: "Source Sans Pro",sans-serif;}
+.listing li {display: block; padding: 0 0 0 15px; margin-bottom: 10px; opacity: 0.8; line-height: 1;font-size: 18px; position: relative}
+.listing.inline li {display: inline-block;}
+.listing li::after {content: ""; position: absolute; border-left: solid 2px #fe5431; height: 100%; left: 5px; top: 0;}
+p + .listing, .listing + p {margin-top: -20px;}
+
 /*#Logo {
 	font-size: 2000em;
 }*/
