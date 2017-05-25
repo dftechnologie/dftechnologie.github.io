@@ -16,13 +16,28 @@
 
     <!-- Custom Styles -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
     <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+
+    
     <!-- Custom Scripts -->
-    <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
+    <!-- <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script> -->
+
+    <!-- script for accordeons -->
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          collapsible: true,
+          heightStyle: "content"
+        });
+      } );
+    </script>
+
 
     <!-- Google Analytics -->
     <script>
@@ -98,8 +113,7 @@
 
     <!-- owl-Caroussel border -->
     <style>
-      .owl-carousel .item {
-        height: 15rem;
+      .owl-carousel .item {        
         background: #;
         padding: 0.5rem;
       }
@@ -132,7 +146,6 @@
   </head>
 
   <body class="slides scroll noPreload">
-
 
     <!-- SVG Library -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -490,14 +503,6 @@
         <ul class="menu">
           <li><a href="index.html">Accueil</a></li>
           <li class="dropdownTrigger" data-dropdown-id="dropdown-menu"><a href="#">Produits<svg class="dropdown-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#drop-down"></use></svg></a></li>
-            <!-- <div class="box"> -->
-             <!--  <ul class="submenu">          
-               <li><a href="tpe.html">TPE</a></li>
-               <li><a href="tpv.html">TPV</a></li>
-               <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-              </ul> -->
-            <!-- </div> -->
-          </li>        
           <li><a href="nos-services.html">Services</a></li>
           <li><a href="nos-offres.html">Offres</a></li>
         </ul>
@@ -794,15 +799,16 @@
         </div>
     </nav>
 
-      <!-- Research Menu Dropdown -->
-      <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
-        <ul class="#">
-          <li><a href="nos-produits.html">Produits</a></li>
-          <li><a href="tpe.html">TPE</a></li>
-          <li><a href="tpv.html">TPV</a></li>
-          <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-        </ul>
-      </div>
+    <!-- Research Menu Dropdown -->
+    <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
+      <ul class="#">
+        <li><a href="nos-produits.html">Produits</a></li>
+        <li><a href="tpe.html">TPE</a></li>
+        <li><a href="tpv.html">TPV</a></li>
+        <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+        <li><a href="accessories.html">Accessoire monétique</a></li>
+      </ul>
+    </div>
 
     <!-- Sidebar -->
     <nav class="sidebar deepPurple" data-sidebar-id="1">
@@ -1091,6 +1097,7 @@
                <li><a href="tpe.html">Terminal de paiement</a></li>
                <li><a href="tpv.html">Terminal Point de Vente</a></li>
                <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+               <li><a href="accessories.html">Accessoire monétique</a></li>
               </ul>
             </li>
           <li><a href="nos-services.html">Services</a></li>
@@ -1103,7 +1110,7 @@
           <li><a href="https://www.instagram.com/dftechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         </ul>
       </div>
-    </nav>
+    </nav> 
 
 <!-- Slide 1 (#23) -->
 <section class="slide fade kenBurns">

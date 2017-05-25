@@ -16,13 +16,28 @@
 
     <!-- Custom Styles -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
     <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+
+    
     <!-- Custom Scripts -->
-    <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
+    <!-- <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script> -->
+
+    <!-- script for accordeons -->
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          collapsible: true,
+          heightStyle: "content"
+        });
+      } );
+    </script>
+
 
     <!-- Google Analytics -->
     <script>
@@ -98,8 +113,7 @@
 
     <!-- owl-Caroussel border -->
     <style>
-      .owl-carousel .item {
-        height: 15rem;
+      .owl-carousel .item {        
         background: #;
         padding: 0.5rem;
       }
@@ -132,7 +146,6 @@
   </head>
 
   <body class="slides scroll noPreload">
-
 
     <!-- SVG Library -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -490,14 +503,6 @@
         <ul class="menu">
           <li><a href="index.html">Accueil</a></li>
           <li class="dropdownTrigger" data-dropdown-id="dropdown-menu"><a href="#">Produits<svg class="dropdown-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#drop-down"></use></svg></a></li>
-            <!-- <div class="box"> -->
-             <!--  <ul class="submenu">          
-               <li><a href="tpe.html">TPE</a></li>
-               <li><a href="tpv.html">TPV</a></li>
-               <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-              </ul> -->
-            <!-- </div> -->
-          </li>        
           <li><a href="nos-services.html">Services</a></li>
           <li><a href="nos-offres.html">Offres</a></li>
         </ul>
@@ -794,15 +799,16 @@
         </div>
     </nav>
 
-      <!-- Research Menu Dropdown -->
-      <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
-        <ul class="#">
-          <li><a href="nos-produits.html">Produits</a></li>
-          <li><a href="tpe.html">TPE</a></li>
-          <li><a href="tpv.html">TPV</a></li>
-          <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-        </ul>
-      </div>
+    <!-- Research Menu Dropdown -->
+    <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
+      <ul class="#">
+        <li><a href="nos-produits.html">Produits</a></li>
+        <li><a href="tpe.html">TPE</a></li>
+        <li><a href="tpv.html">TPV</a></li>
+        <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+        <li><a href="accessories.html">Accessoire monétique</a></li>
+      </ul>
+    </div>
 
     <!-- Sidebar -->
     <nav class="sidebar deepPurple" data-sidebar-id="1">
@@ -1091,6 +1097,7 @@
                <li><a href="tpe.html">Terminal de paiement</a></li>
                <li><a href="tpv.html">Terminal Point de Vente</a></li>
                <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+               <li><a href="accessories.html">Accessoire monétique</a></li>
               </ul>
             </li>
           <li><a href="nos-services.html">Services</a></li>
@@ -1103,291 +1110,160 @@
           <li><a href="https://www.instagram.com/dftechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         </ul>
       </div>
-    </nav>
+    </nav> 
   
-<!-- Slide 1 (#05) -->
-<section class="slide whiteSlide ">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-    <!--   
-        <ul class="grid">
-          <li class="col-12-12">
-            <div class="fix-4-12">
-              <div class="svgContainer svg-5 ae-1">
-                <svg class="scale"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-              </div>
+    <!-- Slide 1 (#61) -->
+    <section class="slide whiteSlide selected active animate" data-name="9">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+            <div class="fix-12-12">
+              <h1 class="light uppercase raleway">Terminal de Paiement Électronique</h1>
+              <a href="https://www.facebook.com/pg/DFTechnologie/shop/?cid=757051941130964&ref=page_internal" class="button small white text-teal" data-vivaldi-spatnav-clickable="1">Shop</a>
             </div>
-          </li>
-          <li class="col-12-12">
-            <div class="fix-6-12 ae-2">
-              <img width="550" src="assets/img/tpe-2.png" class="shiftImage tpe-ingenico" alt="header tpe" data-action="zoom"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 -->
+    <section class="slide  whiteSlide autoHeight roundedSlide cyan">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+          
+            <div class="fix-10-12">
+              <h1 class="huge ae-1">Les différentes catégories de terminaux.</h1>
             </div>
-          </li>
-        </ul>
-         -->
+            <div class="fix-12-12 margin-top-6">
+              <ul class="grid fixedSpaces">
+                <li class="col-4-12 ae-3">
+                  <h3 class="margin-bottom-1">Terminal fixe</h3>
+                  <ul class="listing">
+                    <li>Compatible PinPad</li> 
+                    <li>Terminaux comptoire</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Terminal portable</h3>
+                  <ul class="listing">
+                    <li>Mobilité hors et en magasin</li> 
+                    <li>Accepte les communication 3G/IP/RTC</li>
+                  </ul>
+                </li>
+                <li class="col-4-12 ae-4">
+                  <h3 class="margin-bottom-1">Terminal grande distribution</h3>
+                  <ul class="listing">
+                    <li>Rapidité</li> 
+                    <li>Communication avec logiciel d'encaissement</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Terminal libre-service</h3>
+                  <ul class="listing">
+                    <li>Autonomie</li> 
+                    <li>Intégration en borne</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Propriétaires de parc</h3>
+                  <ul class="listing">
+                    <li>Gestion à distance par serveur</li> 
+                    <li>Gestion Luma</li>
+                  </ul>
+                </li>
+                <li class="col-4-12 ae-5">
+                  <h3 class="margin-bottom-1">En savoir plus</h3>
+                  <li><span class="button intercomButton actionButton" onclick="Intercom('show')"><i class="material-icons">&#xE0B7;</i></li>
+                  <h3 class="margin-bottom-1">Réseaux</h3>
+                  <ul class="social-circles">
+                    <li><a class="button roundButton facebook" href="https://www.facebook.com/DFTechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+                    <li><a class="button roundButton twitter" href="https://twitter.com/DF_Technologie"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton tumblr" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tumblr"></use></svg></a></li> -->
+                   <!--  <li><a class="button roundButton googlePlus" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li> -->
+                    <li><a class="button roundButton instagram" href="https://www.instagram.com/dftechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton youtube" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li> -->
+                    <li><a class="button roundButton linkedin" href="https://www.linkedin.com/company-beta/11138820/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton pinterest" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>            
+          </span>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/header-tpe.png)"></div>
-</section>
+    </section>
 
-<!-- Slide 2 (#26) -->
-<section class="slide whiteSlide autoHeight roundedSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex reverse verticalCenter">
-            <li class="col-7-12 left cell-26">
-              <h1 class="ae-1 fromLeft">Terminaux fixes</h1>
-              <div class="ae-2 fromLeft">
-                <p>Il existe plusieurs modèles de terminaux de paiement fixes, conseillé pour les sédentaire, ils s'intègrent facilement dans tous les environnements et satisfont les exigences les plus strictes en matière d’acceptation de tous les modes de paiement</p>
-              </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Avantage</h3>
-                  <div class="ae-5 fromRight">
-                    <ul class="listing">
-                      <li>Terminaux robuste</li> 
-                      <li>Terminaux comptoire</li>
-                    </ul>
-                  </div>
+    <!-- Slide 3 (#26) -->
+    <section class="slide  whiteSlide autoHeight roundedSlide ">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+          
+            <div class="fix-10-12 left">
+              
+              <div id="accordion">
+                <h3 class="cyan">Terminaux fixes</h3>
+                <div class="owl-carousel owl-theme ae-3">
+                  <div class="item"><img src="assets/img/tpe1.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpe2.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpe3.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpe4.png" class="wide" alt="slide"/></div>           
+                </div>
+                <h3 class="cyan">Terminaux portables</h3>
+                <div class="owl-carousel owl-theme ae-3">
+                  <div class="item"><img src="assets/img/tpe5.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpe6.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpe7.png" class="wide" alt="slide"/></div>
+                </div>
+                <h3 class="cyan">Terminaux pour la grande distribution</h3>
+                <div class="owl-carousel owl-theme ae-3">                  
+                  <div class="item"><img src="assets/img/tpe8.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpe9.png" class="wide" alt="slide"/></div>
+                </div>                
+                <h3 class="cyan">Terminaux pour le libre service</h3>
+                <div class="owl-carousel owl-theme ae-3">                  
+                  <div class="item"><img src="assets/img/tpe10.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpe11.png" class="wide" alt="slide"/></div>
+                </div>
+                <h3 class="cyan">Terminaux mobilité & multimédia</h3>
+                <div class="owl-carousel owl-theme ae-3">     
+                  <div class="item"><img src="assets/img/tpe12.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpe13.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpe14.png" class="wide" alt="slide"/></div> 
                 </div>
               </div>
-            </li>
-            <li class="col-5-12">
-              <div class="fix-4-12 center">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-1">
-                  <li class="selected"><img src="assets/img/ict250-1.jpg" class="wide" alt="ict 250 "/></li>
-                  <li><img src="assets/img/tpe-5.jpg" class="wide" alt="vx 590 "/></li>
-                  <li><img src="assets/img/tpe-4.png" class="wide" alt="desk 5000 "/></li>
-                  <li><img src="assets/img/tpe-6.jpg" class="wide" alt="pinpad "/></li>
-                </ul>
-                <ul class="controller dots ae-3 fromCenter" data-slider-id="26-1">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/grey-background.jpg)"></div>
-</section>
 
-<!-- Slide 3 (#27) -->
-<section class="slide whiteSlide autoHeight roundedSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex verticalCenter">
-            <li class="col-5-12 cell-27">
-              <div class="fix-4-12">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
-                  <li class="selected"><img src="assets/img/vx690-1.jpg" class="wide" alt="vx 690 "/></li>
-                  <li><img src="assets/img/iwl250-1.png" class="wide" alt="iwl 250 "/></li>
-                  <li><img src="assets/img/vx675-2.jpg" class="wide" alt="vx 675 "/></li>
-                  <li><img src="assets/img/tpe-3.png" class="wide" alt="move 5000 "/></li>
-                </ul>
-                <ul class="controller dots ae-2 fromCenter" data-slider-id="27-2">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="col-7-12 left">
-              <h1 class="ae-2 fromRight">Terminaux portables</h1>
-              <div class="ae-3 fromRight">
-                <p>Acceptez n’importe quel type de paiement électronique sécurisé de bout en bout, et ne jamais manquer une vente</p> </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Avantage</h3>
-                  <div class="ae-5 fromRight">
-                    <ul class="listing">
-                      <li>Mobilité hors et en magasin</li> 
-                      <li>Accepte toute sorte de communication</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
+            </div>
+            <a href="https://www.facebook.com/pg/DFTechnologie/shop/?cid=757051941130964&ref=page_internal" class="button small white text-cyan Center" data-vivaldi-spatnav-clickable="1">Shop</a>
+            
+          </div>
         </div>
-        
       </div>
-    </div>
-  </div>
-</section>
 
-<!-- Slide 4 (#26) -->
-<section class="slide whiteSlide autoHeight roundedSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex reverse verticalCenter">
-            <li class="col-7-12 left cell-26">
-              <h1 class="ae-1 fromLeft">Terminaux pour la grande distribution</h1>
-              <div class="ae-2 fromLeft">
-                <p>Conçus pour les environnements de distribution les plus exigeants et accélèrent le processus de paiement tout en renforçant l'engagement du consommateur</p>
-              </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Avantage</h3>
-                  <div class="ae-5 fromRight">
-                    <ul class="listing">
-                      <li>Rapidité</li> 
-                      <li>Communication avec caisse enregistreuse</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="col-5-12">
-              <div class="fix-4-12 center">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-3">
-                  <li class="selected"><img src="assets/img/tpe-7.png" class="wide" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="assets/img/tpe-8.jpg" class="wide" alt="Apple Watch Thumbnail"/></li>
+    </section>
+
+    <!-- Slide 7 (#44) -->
+    <section class="slide fade kenBurns roundedSlide selected active animate">
+      <div class="content">
+        <div class="container">
+          <div class="wrap bottom">
+          
+            <div class="fix-7-12 left toLeft">
+              <h1 class="ae-1">A chacun son réseau</h1>
+              <div class="ae-2">
+                <h2 class="small uppercase">En fonction, de vos besoins différents types de communication sont proposés.</h2>
+                <ul class="listing">
+                  <li>Communication RTC (dite "FRANCE TÉLÉCOM")</li> 
+                  <li>Communication IP/Adsl (nécéssite une connexion internet)</li>
+                  <li>Communication 3G/Gprs (pour terminal mobile)</li>
                 </ul>
-                <ul class="controller dots ae-3 fromCenter" data-slider-id="26-3">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+               </div> 
+            </div>
+            
+          </div>
         </div>
-        
       </div>
-    </div>
-  </div>
-</section>
+      <div class="background" style="background-image:url(assets/img/img-35.jpg)"></div>
+    </section>
 
-<!-- Slide 5 (#27) -->
-<section class="slide whiteSlide autoHeight roundedSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex verticalCenter">
-            <li class="col-5-12 cell-27">
-              <div class="fix-4-12">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-4">
-                  <li class="selected"><img src="assets/img/tpe-9.jpg" class="wide" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="assets/img/tpe-10.jpg" class="wide" alt="Apple Watch Thumbnail"/></li>
-                </ul>
-                <ul class="controller dots ae-2 fromCenter" data-slider-id="27-4">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="col-7-12 left">
-              <h1 class="ae-2 fromRight">Libre-service</h1>
-              <div class="ae-3 fromRight">
-                <p>Destinés à être utilisées comme des automates, ils favorisent les ventes en libre-service sans intervention d'un vendeur</p>
-              </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Avantage</h3>
-                  <div class="ae-5 fromRight">
-                    <ul class="listing">
-                      <li>Autonomie</li> 
-                      <li>Integration en borne</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Slide 7 (#44) -->
-<section class="slide fade kenBurns roundedSlide selected active animate">
-  <div class="content">
-    <div class="container">
-      <div class="wrap bottom">
-      
-        <div class="fix-7-12 left toLeft">
-          <h1 class="ae-1">A chacun son réseau</h1>
-          <div class="ae-2">
-            <h2 class="small uppercase">En fonction, de vos besoins différents types de communication sont proposés.</h2>
-            <ul class="listing">
-              <li>Communication RTC (dite "FRANCE TÉLÉCOM")</li> 
-              <li>Communication IP/Adsl (nécéssite une connexion internet)</li>
-              <li>Communication 3G/Gprs (pour terminal mobile)</li>
-            </ul>
-           </div> 
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/img-35.jpg)"></div>
-</section>
-
-<!-- Slide 8 (#26) -->
- <section class="slide components kenBurns roundedSlide autoHeight " style="background:#000">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex reverse verticalCenter">
-            <li class="col-7-12 left cell-26">
-              <h1 class="ae-1 fromLeft">Paiement mobile pour propriétaires de parc</h1>
-              <div class="ae-2 fromLeft">
-                <p>Pour les propriétaires de plusieurs boutiques ou d'un nombre conséquent de TPE.<br \> 
-                Nous vous offrons la possibilité d'avoir une gestion technique globale à distance.</p>
-              </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-4.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Avantage</h3>
-                  <div class="ae-5 fromRight">
-                    <p class="small">GESTION DE TPE À DISTANCE LUMA.</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="col-5-12">
-              <div class="fix-4-12 center">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-3">
-                  <li class="selected"><img src="assets/svg/urban.svg" class="wide" alt="Apple Watch Thumbnail"/></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Panel Bottom #13 -->
+    <!-- Panel Bottom #13 -->
     <nav class="panel bottom forceMobileView">
       <div class="sections desktop">
         <div class="left">

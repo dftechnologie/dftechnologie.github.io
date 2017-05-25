@@ -16,13 +16,28 @@
 
     <!-- Custom Styles -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
     <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+
+    
     <!-- Custom Scripts -->
-    <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
+    <!-- <script src="js/custom.js" type="text/javascript" name="custom-scripts"></script> -->
+
+    <!-- script for accordeons -->
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          collapsible: true,
+          heightStyle: "content"
+        });
+      } );
+    </script>
+
 
     <!-- Google Analytics -->
     <script>
@@ -98,8 +113,7 @@
 
     <!-- owl-Caroussel border -->
     <style>
-      .owl-carousel .item {
-        height: 15rem;
+      .owl-carousel .item {        
         background: #;
         padding: 0.5rem;
       }
@@ -132,7 +146,6 @@
   </head>
 
   <body class="slides scroll noPreload">
-
 
     <!-- SVG Library -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -490,14 +503,6 @@
         <ul class="menu">
           <li><a href="index.html">Accueil</a></li>
           <li class="dropdownTrigger" data-dropdown-id="dropdown-menu"><a href="#">Produits<svg class="dropdown-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#drop-down"></use></svg></a></li>
-            <!-- <div class="box"> -->
-             <!--  <ul class="submenu">          
-               <li><a href="tpe.html">TPE</a></li>
-               <li><a href="tpv.html">TPV</a></li>
-               <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-              </ul> -->
-            <!-- </div> -->
-          </li>        
           <li><a href="nos-services.html">Services</a></li>
           <li><a href="nos-offres.html">Offres</a></li>
         </ul>
@@ -794,15 +799,16 @@
         </div>
     </nav>
 
-      <!-- Research Menu Dropdown -->
-      <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
-        <ul class="#">
-          <li><a href="nos-produits.html">Produits</a></li>
-          <li><a href="tpe.html">TPE</a></li>
-          <li><a href="tpv.html">TPV</a></li>
-          <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
-        </ul>
-      </div>
+    <!-- Research Menu Dropdown -->
+    <div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu">
+      <ul class="#">
+        <li><a href="nos-produits.html">Produits</a></li>
+        <li><a href="tpe.html">TPE</a></li>
+        <li><a href="tpv.html">TPV</a></li>
+        <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+        <li><a href="accessories.html">Accessoire monétique</a></li>
+      </ul>
+    </div>
 
     <!-- Sidebar -->
     <nav class="sidebar deepPurple" data-sidebar-id="1">
@@ -1091,6 +1097,7 @@
                <li><a href="tpe.html">Terminal de paiement</a></li>
                <li><a href="tpv.html">Terminal Point de Vente</a></li>
                <li><a href="logiciel-caisse.html">Logiciel d'encaissement</a></li>
+               <li><a href="accessories.html">Accessoire monétique</a></li>
               </ul>
             </li>
           <li><a href="nos-services.html">Services</a></li>
@@ -1103,126 +1110,139 @@
           <li><a href="https://www.instagram.com/dftechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         </ul>
       </div>
-    </nav>
+    </nav> 
 
-<!-- Slide 1 (#05) -->
-<section class="slide whiteSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <ul class="grid">
-          <li class="col-12-12">
-          <!--  <div class="fix-4-12">
-                  <div class="svgContainer svg-5 ae-1">
-                    <svg class="scale"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-                  </div>
-                </div> -->
-          </li>
-          <li class="col-12-12">
-            <div class="fix-6-12 ae-2">
-              <!-- <img width="550" src="assets/img/header-tpe.png" class="shiftImage tpe-ingenico" alt="header tpe" data-action="zoom"/> -->
+    <!-- Slide 1 (#61) -->
+    <section class="slide whiteSlide selected active animate" data-name="9">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+            <div class="fix-12-12">
+              <h1 class="light uppercase raleway">Terminal Point de Vente</h1>
+              <a href="https://www.facebook.com/pg/DFTechnologie/shop/?cid=753956881440470&ref=page_internal" class="button small white text-blueGrey" data-vivaldi-spatnav-clickable="1">Shop</a>
             </div>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/header-tpv.png)"></div>
-</section>
-
-<!-- Slide 2 (#30) -->
-<section class="slide whiteSlide roundedSlide autoHeight">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <div class="fix-12-12">
-          <ul class="grid">
-            <li class="col-7-12 left">
-              <h1 class="ae-1">Les Terminaux Point de Ventes</h1>
-              <div class="ae-2">
-                <p class="margin-bottom-1">Les caisses enregistreuses se différencies en fonction de leur technologie.</p>
-              </div>
-            </li>
-          </ul>
-          <ul class="grid">
-            <li class="col-4-12 left ae-3">
-              <img src="assets/img/caisse.png" width="72px" height="72px" alt="icon-tpv"/>
-              <h3>Caisse enregistreuse numérique</h3>
-              <p class="small">Il s'agit globalement de calculatrice améliorée. La caisse numérique est par défaut équipée d'une imprimante, d'un afficheur digital et d'un tiroir caisse.
-              </p>
-            </li>
-            <li class="col-4-12 left ae-4">
-              <img src="assets/img/caisse.png" width="72px" height="72px" alt="icon-tpv"/>
-              <h3>Caisse enregistreuse alphanumérique</h3>
-              <p class="small">Doté d'un clavier divisé en trois zones distinctes elle peut choisir des articles, sélectionner les modes d'encaissement, effectuer les opérations spéciales comme les remises.
-              </p>
-            </li>
-            <li class="col-4-12 left ae-5">
-              <img src="assets/svg/icon-tpv.svg" width="72px" height="72px" alt="icon-tpv"/>
-              <h3>Caisse Tactile</h3>
-              <p class="small"> Propose un nombre élevé de fonctionnalités. En fonction de votre commerce, le modèle et le logiciel installé pour la vente divergera.</p>
-              <p>D'autre accessoire peuvent s'y rajouter, comme une balance électronique, un monnayeur automatique ou un lecteur de codes-barres par exemple..</p>
-            </li>
-          </ul>
+          </div>
         </div>
-        
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Slide 3 (#26) -->
-<section class="slide whiteSlide roundedSlide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="flex reverse verticalCenter">
-            <li class="col-7-12 left cell-26">
-              <h1 class="ae-1 fromLeft">Hybride</h1>
-              <div class="ae-2 fromLeft">
-                <p>Aujourd'hui des caisses hybrides font leur apparition, intégrants les meilleures technologies du marché : scanneur, imprimante, afficheur client, terminale de paiements, tablette.</p>
-              </div>
-              <div class="relative">
-                <img src="assets/img/app-logo-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
-                  <h3 class="ae-3 fromRight">Une solution totalement intégrée</h3>
-                  <div class="ae-5 fromRight">
-                    <ul class="listing">
-                      <li> Fusionnez l'encaissement, le paiement et les accéssoires monétiques.</li>
-                      <li> Transformez votre point de vente en un point de service interactif</li>
-                      <li> Augmentez votre productivité grace à une mobilité accrue, pour la vente et l'encaissement</li>
-                    </ul>
-                  </div>
+  <!-- Slide 2 -->
+    <section class="slide whiteSlide roundedSlide autoHeight blueGrey">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+          
+            <div class="fix-10-12">
+              <h1 class="huge ae-1">Les différentes catégories de terminaux.</h1>
+            </div>
+            <div class="fix-12-12 margin-top-6">
+              <ul class="grid fixedSpaces">
+                <li class="col-4-12 ae-3">
+                  <h3 class="margin-bottom-1">Caisse enregistreuse numérique</h3>
+                  <ul class="listing">
+                    <li>Calculatrice amélioré</li> 
+                    <li>imprimante, afficheur, tiroir caisse</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Caisse enregistreuse alphanumérique</h3>
+                  <ul class="listing">
+                    <li>sélection d'articles</li> 
+                    <li>Opération spéciale, gestion de TVA</li>
+                  </ul>
+                  <ul>
+                   <img src="assets/img/caisse.png" width="72px" height="72px" alt="icon-tpv"/>
+                  </ul>
+                </li>
+                <li class="col-4-12 ae-4">
+                  <h3 class="margin-bottom-1">Caisse tactile</h3>
+                  <ul class="listing">
+                    <li>Nombre élevé de fonctionnalités</li> 
+                    <li>Compatibilité d'accéssoires élevées</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Caisse mobile</h3>
+                  <ul class="listing">
+                    <li>mobilité</li> 
+                    <li>Format tablette (ex: IPad)</li>
+                  </ul>
+                  <h3 class="margin-bottom-1">Caisse hybride</h3>
+                  <ul class="listing">
+                    <li>Mobilité</li> 
+                    <li>équipement tout-en-un (TPE+TPV)</li>
+                  </ul>
+                </li>
+                <li class="col-4-12 ae-5">
+                  <h3 class="margin-bottom-1">En savoir plus</h3>
+                  <li><span class="button intercomButton actionButton" onclick="Intercom('show')"><i class="material-icons">&#xE0B7;</i></li>
+                  <h3 class="margin-bottom-1">Réseaux</h3>
+                  <ul class="social-circles">
+                    <li><a class="button roundButton facebook" href="https://www.facebook.com/DFTechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+                    <li><a class="button roundButton twitter" href="https://twitter.com/DF_Technologie"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton tumblr" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tumblr"></use></svg></a></li> -->
+                   <!--  <li><a class="button roundButton googlePlus" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li> -->
+                    <li><a class="button roundButton instagram" href="https://www.instagram.com/dftechnologie/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton youtube" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li> -->
+                    <li><a class="button roundButton linkedin" href="https://www.linkedin.com/company-beta/11138820/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a></li>
+                    <!-- <li><a class="button roundButton pinterest" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>            
+          </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Slide 3 (#26) -->
+    <section class="slide  whiteSlide  roundedSlide ">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+          
+            <div class="fix-10-12 left">
+              
+              <div id="accordion">
+                <h3 class="blueGrey">Caisse enregistreuse numérique</h3>
+                <div class="owl-carousel owl-theme ae-3">
+                  <div class="item"><img src="assets/img/tpv1.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv2.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv3.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv4.png" class="wide" alt="slide"/></div>           
                 </div>
+                <h3 class="blueGrey">Caisse tactile</h3>
+                <div class="owl-carousel owl-theme ae-3">
+                  <div class="item"><img src="assets/img/tpv5.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv6.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv7.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv8.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv9.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv10.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv11.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv12.png" class="wide" alt="slide"/></div>
+                </div>
+                <h3 class="blueGrey">Caisse hybride</h3>
+                <div class="owl-carousel owl-theme ae-3">                  
+                  <div class="item"><img src="assets/img/tpv13.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv14.png" class="wide" alt="slide"/></div>
+                </div>                
+                <h3 class="blueGrey">Caisse mobile</h3>
+                <div class="owl-carousel owl-theme ae-3">                  
+                  <div class="item"><img src="assets/img/tpv15.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv16.png" class="wide" alt="slide"/></div>
+                  <div class="item"><img src="assets/img/tpv17.png" class="wide" alt="slide"/></div> 
+                  <div class="item"><img src="assets/img/tpv18.png" class="wide" alt="slide"/></div>
+                </div>  
               </div>
-            </li>
-            <li class="col-5-12">
-              <div class="fix-4-12 center">
-                <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-2">
-                  <li class="selected"><img src="assets/img/tpv-2.png" class="wide" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="assets/img/tpv-4.png" class="wide" alt="Ruggy"/></li>
-                </ul>
-                <ul class="controller dots ae-3 fromCenter" data-slider-id="26-2">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+
+            </div>
+            <a href="https://www.facebook.com/pg/DFTechnologie/shop/?cid=757051941130964&ref=page_internal" class="button small white text-blueGrey Center" data-vivaldi-spatnav-clickable="1">Shop</a>
+            
+          </div>
         </div>
-        
       </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/grey-background.jpg)"></div>
-</section>
+      <div class="background" style="background-image:url(assets/img/grey-background.jpg)"></div>
+    </section>
 	
-<!-- Panel Bottom #13 -->
+  <!-- Panel Bottom #13 -->
     <nav class="panel bottom forceMobileView">
       <div class="sections desktop">
         <div class="left">
