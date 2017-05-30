@@ -48,9 +48,39 @@ h3.micro,
 .listing { margin-bottom: 40px; font-family: "Source Sans Pro",sans-serif;}
 .listing li {display: block; padding: 0 0 0 15px; margin-bottom: 10px; opacity: 0.8; line-height: 1;font-size: 18px; position: relative}
 .listing.inline li {display: inline-block;}
-.listing li::after {content: ""; position: absolute; border-left: solid 2px #fe5431; height: 100%; left: 5px; top: 0;}
+.listing li::after {content: ""; position: absolute; height: 100%; left: 5px; top: 0;}
 p + .listing, .listing + p {margin-top: -20px;}
 
-/*#Logo {
-	font-size: 2000em;
-}*/
+.customHover {
+   position:relative;  
+}
+.customHover:before {
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+   width:100%;
+  height:3px;
+  background:#CCC;
+  z-index:-1;
+  -webkit-transition:0.35s;
+  transition:0.35s;
+}
+.customHover:hover:before {
+  background:rgba(60,125,255,1.00);
+  -webkit-transition:height 0.15s, width 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), -webkit-transform 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), color 0.35s;
+  transition:height 0.15s, width 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), transform 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), color 0.35s;
+  height:100%;
+  -webkit-transform:translateX(-6px);
+  transform:translateX(-6px);
+  
+  width: calc(100% + 12px);
+  
+  border-radius:3px;
+}
+
+.customHover:hover {
+   -webkit-transition:0.5s;
+   transition:0.5s;
+   color:#fff;
+}
